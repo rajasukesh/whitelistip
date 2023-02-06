@@ -1,9 +1,17 @@
 #!/usr/bin/env bash
 set -x
 
-cd /Users/SRaja/copy-infrastructure-live/dev/us-east-1/dev/services/frontend-site
+#cd /Users/SRaja/copy-infrastructure-live/dev/us-east-1/dev/services/frontend-site
 
-mkdir test
+#mkdir test
+
+git pull
+
+git branch
+
+git checkout -b feature/add-ip-addresses-into-cloudfront-whitelist
+
+git branch
 
 readFile='/Users/SRaja/copy-infrastructure-live/add.yml'
 # targetFile is where we will write to
@@ -11,4 +19,10 @@ targetFile="/Users/SRaja/copy-infrastructure-live/dev/us-east-1/dev/services/fro
 
 envsubst < "$readFile" >> "$targetFile"
 
-cat "$targetFile"
+git add .
+
+git commit -m "testing"
+
+git push --set-upstream origin feature/add-ip-addresses-into-cloudfront-whitelist
+
+#cat "$targetFile"
