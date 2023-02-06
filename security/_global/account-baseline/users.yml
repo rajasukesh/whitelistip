@@ -1,0 +1,342 @@
+# Alex Zhang
+azhang:
+  create_access_keys: false
+  create_login_profile: false
+  groups:
+  - access-all-external-accounts
+  - iam-user
+  - ssh-grunt-sudo-users
+
+# Melwyn D'Silva
+mdsilva:
+  create_access_keys: false
+  create_login_profile: false
+  groups:
+  - access-all-external-accounts
+  - iam-user
+  - ssh-grunt-sudo-users
+
+# Aneesh Bharadwaj
+abharadwaj:
+  create_access_keys: false
+  create_login_profile: false
+  groups:
+  - access-all-external-accounts
+  - iam-user
+  - ssh-grunt-sudo-users
+
+# Frances Levison
+flevison:
+  create_access_keys: false
+  create_login_profile: false
+  groups:
+  - _account.dev-dev
+  - _account.shared-dev
+  - iam-user
+
+# Michal Mikolajczyk
+mmikolajczyk:
+  create_access_keys: false
+  create_login_profile: false
+  groups:
+  - _account.dev-dev
+  - _account.shared-dev
+  - iam-user
+
+# Mauricio Robles
+mrobles:
+  create_access_keys: false
+  create_login_profile: false
+  groups:
+  - _account.dev-dev
+  - _account.shared-dev
+  - iam-user
+
+# El Hassane Boushib
+eboushib:
+  create_access_keys: false
+  create_login_profile: false
+  groups:
+  - _account.dev-dev
+  - _account.qa-dev
+  - _account.stage-dev
+  - _account.prod-dev
+  - _account.shared-dev
+  - _account.logs-dev
+  - iam-user
+
+# Ken Abe
+kabe:
+  create_access_keys: false
+  create_login_profile: false
+  groups:
+  - _account.dev-dev
+  - _account.shared-dev
+  - iam-user
+
+# Sakshi Suppal
+ssuppal:
+  create_access_keys: false
+  create_login_profile: false
+  groups:
+  - _account.dev-dev
+  - _account.shared-dev
+  - iam-user
+
+# Yasel Garces
+ygarces:
+  create_access_keys: false
+  create_login_profile: false
+  groups:
+  - _account.dev-dev
+  - _account.shared-dev
+  - iam-user
+
+# Sean Kim
+skim:
+  create_access_keys: false
+  create_login_profile: false
+  groups:
+  - _account.dev-dev
+  - _account.shared-dev
+  - iam-user
+
+# Jordan Brown
+jbrown:
+  create_access_keys: false
+  create_login_profile: false
+  groups:
+  - _account.dev-dev
+  - _account.shared-dev
+  - iam-user
+
+# Felicia Invedy
+finvedy:
+  create_access_keys: false
+  create_login_profile: false
+  groups:
+  - _account.dev-dev
+  - _account.shared-dev
+  - iam-user
+
+# Abhimanyu Arya
+aarya:
+  create_access_keys: false
+  create_login_profile: false
+  groups:
+  - _account.dev-dev
+  - _account.shared-dev
+  - iam-user
+
+# Hua Liang
+hliang:
+  create_access_keys: false
+  create_login_profile: false
+  groups:
+  - _account.dev-dev
+  - _account.shared-dev
+  - iam-user
+
+# Jennifer Paucke
+jpaucke:
+  create_access_keys: false
+  create_login_profile: false
+  groups:
+  - _account.dev-dev
+  - _account.shared-dev
+  - iam-user
+
+# Medhini Oak
+moak:
+  create_access_keys: false
+  create_login_profile: false
+  groups:
+  - _account.dev-dev
+  - _account.shared-dev
+  - iam-user
+
+# Raman RKVS
+rrkvs:
+  create_access_keys: false
+  create_login_profile: false
+  groups:
+  - _account.dev-dev
+  - _account.shared-dev
+  - iam-user
+
+# Rujul Solanki
+rsolanki:
+  create_access_keys: false
+  create_login_profile: false
+  groups:
+  - _account.dev-dev
+  - _account.stage-dev
+  - _account.shared-dev
+  - iam-user
+
+# Emanuel Ortiz
+eortiz:
+  create_access_keys: false
+  create_login_profile: false
+  groups:
+  - access-all-external-accounts
+  - iam-user
+
+# Paul Boncz
+pboncz:
+  create_access_keys: false
+  create_login_profile: false
+  groups:
+  - access-all-external-accounts
+  - iam-user
+
+# Cas Mollien
+cmollien:
+  create_access_keys: false
+  create_login_profile: false
+  groups:
+  - access-all-external-accounts
+  - iam-user
+
+# Jason Lee
+jlee:
+  create_access_keys: false
+  create_login_profile: false
+  groups:
+  - access-all-external-accounts
+  - iam-user
+
+# Ramses Veloso
+rveloso:
+  create_access_keys: false
+  create_login_profile: false
+  groups:
+  - access-all-external-accounts
+  - iam-user
+
+# Lisa Cone
+lcone:
+  create_access_keys: false
+  create_login_profile: false
+  groups:
+  - _account.dev-read-only
+  - _account.qa-read-only
+  - _account.stage-read-only
+  - _account.prod-read-only
+  - _account.shared-read-only
+  - _account.security-read-only
+  - _account.logs-read-only
+  - iam-user
+
+# Bindu Sree
+bsree:
+  create_access_keys: false
+  create_login_profile: false
+  groups:
+  - _account.dev-read-only
+  - _account.qa-read-only
+  - _account.stage-read-only
+  - _account.prod-read-only
+  - _account.shared-read-only
+  - _account.security-read-only
+  - _account.logs-read-only
+  - iam-user
+
+# Zachary Stemper
+zstemper:
+  create_access_keys: false
+  create_login_profile: false
+  groups:
+  - _account.dev-read-only
+  - _account.qa-read-only
+  - _account.stage-read-only
+  - _account.prod-read-only
+  - _account.shared-read-only
+  - _account.security-read-only
+  - _account.logs-read-only
+  - iam-user
+
+# Kranthi Kharidu
+kkharidu:
+  create_access_keys: false
+  create_login_profile: false
+  groups:
+  - _account.dev-read-only
+  - _account.qa-read-only
+  - _account.stage-read-only
+  - _account.prod-read-only
+  - _account.shared-read-only
+  - _account.security-read-only
+  - _account.logs-read-only
+  - iam-user
+
+# Koushik Choudary
+kchoudary:
+  create_access_keys: false
+  create_login_profile: false
+  groups:
+  - _account.dev-read-only
+  - _account.qa-read-only
+  - _account.stage-read-only
+  - _account.prod-read-only
+  - _account.shared-read-only
+  - _account.security-read-only
+  - _account.logs-read-only
+  - iam-user
+ 
+# Gary Bullock
+gbullock:
+  create_access_keys: false
+  create_login_profile: false
+  groups:
+  - _account.dev-read-only
+  - _account.stage-read-only
+  - _account.prod-read-only
+  - _account.shared-read-only
+  - _account.security-read-only
+  - _account.logs-read-only
+  - iam-user
+
+# Jamie Hopwood
+jhopwood:
+  create_access_keys: false
+  create_login_profile: false
+  groups:
+  - _account.dev-read-only
+  - _account.stage-read-only
+  - _account.prod-read-only
+  - _account.shared-read-only
+  - _account.security-read-only
+  - _account.logs-read-only
+  - iam-user
+
+# Bart Loza
+bloza:
+  create_access_keys: false
+  create_login_profile: false
+  groups:
+  - _account.dev-dev
+  - _account.shared-dev
+  - iam-user
+
+# Sukesh Raja
+sraja:
+  create_access_keys: false
+  create_login_profile: false
+  groups:
+  - _account.dev-dev
+  - _account.qa-dev
+  - _account.stage-dev
+  - _account.prod-dev
+  - _account.shared-dev
+  - _account.logs-dev
+  - iam-user
+
+# Danielle Zenga
+dzenga:
+  create_access_keys: false
+  create_login_profile: false
+  groups:
+  - _account.dev-dev
+  - _account.shared-dev
+  - iam-user

@@ -1,0 +1,7 @@
+S3Access:
+  effect: "Allow"
+  actions:
+  - "s3:*"
+  resources:
+  - "${safegraph_bucket_resource}/*"
+  - "${safegraph_bucket_resource}"

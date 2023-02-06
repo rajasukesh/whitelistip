@@ -1,0 +1,129 @@
+AMIEncryptionKMSKeyARN: arn:aws:kms:us-east-1:980279442813:alias/ami-encryption
+AMIUserAccounts:
+    - dev
+    - stage
+    - prod
+AWSAccounts:
+    dev:
+        id: "419038716960"
+        root_user_email: fc-dev-aws@furniture.com
+        deploy_order: 0
+    logs:
+        id: "540425906777"
+        root_user_email: fc-logs-aws@furniture.com
+        deploy_order: 0
+    prod:
+        id: "373515799315"
+        root_user_email: fc-prod-aws@furniture.com
+        deploy_order: 0
+    security:
+        id: "202614274507"
+        root_user_email: fc-sec-aws@furniture.com
+        deploy_order: 0
+    shared:
+        id: "980279442813"
+        root_user_email: fc-shar-aws@furniture.com
+        deploy_order: 0
+    stage:
+        id: "666478967164"
+        root_user_email: fc-stag-aws@furniture.com
+        deploy_order: 0
+AWSDefaultRegion: us-east-1
+AWSRegion: us-east-1
+AdditionalDockerImageRepos:
+    - https://github.com/gruntwork-io/terraform-aws-ci.git
+AdditionalPlanAndApplyRepos:
+    - "https://github.com/Furniture-com/infrastructure-live.git"
+AllowedApplyGitRefs:
+    - master
+    - origin/master
+    - main
+    - origin/main
+AppServerClusterType: ecs
+AppVPCCIDRBlock: ""
+AppVPCCIDRMap:
+    dev: 10.0.0.0/16
+    prod: 10.4.0.0/16
+    stage: 10.2.0.0/16
+AutoDeployRoleNames:
+    - allow-auto-deploy-from-other-accounts
+CACertFields:
+    ca_country: US
+    ca_email: admin-accounts@furniture.com
+    ca_locality: Seffner
+    ca_org: furnituredc
+    ca_org_unit: FC
+    ca_state: FL
+CIServer: jenkins
+CacheEngine: none
+CloudTrailKMSKeyARN: arn:aws:kms:us-east-1:540425906777:alias/cloudtrail-furnituredc
+CompanyName: furnituredc
+CompanyVCSPlatform: github
+DeployRunnerImageTag: v0.49.1
+DockerImageBuildPATSecretsManagerARN: arn:aws:secretsmanager:us-east-1:980279442813:secret:MachineUserGitHubPAT-V7AWYW
+ECSDeployRunnerRegion: us-east-1
+EncryptBoot: true
+GitHubPATSecretsManagerARN: arn:aws:secretsmanager:us-east-1:980279442813:secret:MachineUserGitHubPAT-V7AWYW
+GitSSHPrivateKeySecretsManagerARN: arn:aws:secretsmanager:us-east-1:980279442813:secret:MachineUserSSHPrivateKey-1QL6Je
+IAMUsers:
+    iam_adm_fc:
+        create_access_keys: false
+        create_login_profile: true
+        groups:
+            - access-all-external-accounts
+            - iam-admin
+            - ssh-grunt-sudo-users
+        pgp_key: keybase:iam_adm_fc
+IncludeASGCluster: false
+IncludeAurora: false
+IncludeBastionHost: false
+IncludeECSCluster: true
+IncludeEKSCluster: false
+IncludeElasticache: false
+IncludeOpenVPN: true
+IncludeQuickStartDocs: true
+IncludeRDS: true
+IncludeServiceQuotas: true
+InfraLiveRepoSSHURL: git@github.com:Furniture-com/infrastructure-live.git
+InfraLiveRepoURL: https://github.com/Furniture-com/infrastructure-live.git
+IsExample: false
+KanikoImageTag: v0.49.1
+KubergruntVersion: v0.9.0
+MachineUserGitEmail: fc-sa-github@furniture.com
+MachineUserGitUsername: fc-sa-github
+MgmtVPCCIDRBlock: ""
+MgmtVPCCIDRMap:
+    dev: 172.31.80.0/20
+    logs: 172.31.80.0/20
+    prod: 172.31.80.0/20
+    security: 172.31.80.0/20
+    shared: 172.31.80.0/20
+    stage: 172.31.80.0/20
+NetworkBastionType: openvpn-server
+PrimaryIAMEmail: fc-sec-aws@furniture.com
+PrimaryIAMUsername: iam_adm_fc
+RDSCloudwatchLogsExports:
+    - postgresql
+RDSEngine: postgres
+RDSEngineVersion: "12.9"
+ResourceNamePrefix: furnituredc
+SSHIPAllowList:
+    - 172.16.0.0/12
+SampleAppURLs:
+    - https://gruntwork-sample-app.fdc-shared.com
+    - https://gruntwork-sample-app.fdc-dev.com
+    - https://gruntwork-sample-app.fc-stage.com
+    - https://gruntwork-sample-app.fdc-prod.com
+SharedSecretsKMSKeyARN: arn:aws:kms:us-east-1:980279442813:alias/shared-secrets
+TerraformVersion: 1.1.9
+TerragruntVersion: v0.37.4
+UsingCISCompliance: true
+VPNIPAllowList:
+    - 172.16.0.0/12
+    - 34.197.83.11/32
+ecs-deploy-runner-ec2-ami-build.AMIUserAccounts:
+    - dev
+    - stage
+    - prod
+    - logs
+    - security

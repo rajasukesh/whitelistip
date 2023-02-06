@@ -1,0 +1,37 @@
+{
+  "dev": {
+    "deploy_order": 1,
+    "id": "419038716960",
+    "root_user_email": "fc-dev-aws@furniture.com"
+  },
+  "stage": {
+    "deploy_order": 2,
+    "id": "666478967164",
+    "root_user_email": "fc-stag-aws@furniture.com"
+  },
+  "qa": {
+    "deploy_order": 3,
+    "id": "244510027123",
+    "root_user_email": "fc-qa-aws@furniture.com"
+  },
+  "prod": {
+    "deploy_order": 4,
+    "id": "373515799315",
+    "root_user_email": "fc-prod-aws@furniture.com"
+  },
+  "logs": {
+    "deploy_order": 5,
+    "id": "540425906777",
+    "root_user_email": "fc-logs-aws@furniture.com"
+  },
+  "shared": {
+    "deploy_order": 6,
+    "id": "980279442813",
+    "root_user_email": "fc-shar-aws@furniture.com"
+  },
+  "security": {
+    "deploy_order": 7,
+    "id": "202614274507",
+    "root_user_email": "fc-sec-aws@furniture.com"
+  }  
+}

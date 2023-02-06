@@ -1,0 +1,28 @@
+{
+  "Current": 25,
+  "Data": {
+    "ECSDeployRunnerPrivateSSHKeyARN": "arn:aws:secretsmanager:us-east-1:980279442813:secret:MachineUserSSHPrivateKey-1QL6Je",
+    "VCSPATSecretsManagerARN": "",
+    "GitHubPATSecretsManagerARN": "",
+    "TLSFrontEndSecretsManagerArn": {
+      "dev": "arn:aws:secretsmanager:us-east-1:419038716960:secret:SampleAppFrontEndCA-YzuTmm",
+      "prod": "arn:aws:secretsmanager:us-east-1:373515799315:secret:SampleAppFrontEndCA-NDH2dj",
+      "stage": "arn:aws:secretsmanager:us-east-1:666478967164:secret:SampleAppFrontEndCA-OJEcKL"
+    },
+    "TLSBackEndSecretsManagerArn": {
+      "dev": "arn:aws:secretsmanager:us-east-1:419038716960:secret:SampleAppBackEndCA-iDouF0",
+      "prod": "arn:aws:secretsmanager:us-east-1:373515799315:secret:SampleAppBackEndCA-byuSvg",
+      "stage": "arn:aws:secretsmanager:us-east-1:666478967164:secret:SampleAppBackEndCA-9sfQPh"
+    },
+    "DBConfigSecretsManagerArn": {
+      "dev": "arn:aws:secretsmanager:us-east-1:419038716960:secret:RDSDBConfig-8otUZ9",
+      "prod": "arn:aws:secretsmanager:us-east-1:373515799315:secret:RDSDBConfig-Ihpxg5",
+      "stage": "arn:aws:secretsmanager:us-east-1:666478967164:secret:RDSDBConfig-miKEB7"
+    }
+  },
+  "SavePath": "/root/refarch-deploy3214340239/state_machine.json",
+  "AWSVaultSourceProfileName": "gruntwork-customer-access",
+  "FormPath": "/root/refarch-deploy3214340239/reference-architecture-form.yml",
+  "WorkingDir": "/root/refarch-deploy3214340239",
+  "DeployRepoURL": "https://github.com/Furniture-com/infrastructure-live.git"
+}

@@ -1,0 +1,7 @@
+AWSAccountName: stage
+AccountDomainName: fc-stage.com
+AccountRole: stage
+DBSecretsManagerArn: arn:aws:secretsmanager:us-east-1:666478967164:secret:RDSDBConfig-miKEB7
+IncludeAccountBaselineApp: true
+ecs-sample-app-backend.TLSSecretsManagerArn: arn:aws:secretsmanager:us-east-1:666478967164:secret:SampleAppBackEndCA-9sfQPh
+ecs-sample-app-frontend.TLSSecretsManagerArn: arn:aws:secretsmanager:us-east-1:666478967164:secret:SampleAppFrontEndCA-OJEcKL

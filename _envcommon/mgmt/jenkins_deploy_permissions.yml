@@ -1,0 +1,56 @@
+S3DeployAccess:
+  effect: "Allow"
+  actions:
+  - "s3:*"
+  resources:
+  - "*"
+
+StepFunctionAccess:
+  effect: "Allow"
+  actions:
+  - "states:*"
+  resources:
+  - "*"
+
+LambdaDeployAccess:
+  effect: "Allow"
+  actions:
+  - "lambda:*"
+  resources:
+  - "*"
+
+CloudfrontAccess:
+  effect: "Allow"
+  actions:
+  - "cloudfront:*"
+  resources:
+  - "*"
+
+IAMRoleAccess:
+  effect: "Allow"
+  actions:
+  - "iam:GetRolePolicy"
+  - "iam:GetRole"
+  resources:
+  - "*"
+
+ECRDeployAccess:
+  effect: "Allow"
+  actions:
+  - "ecr:*"
+  resources:
+  - "*"
+
+ECSDeployAccess:
+  effect: "Allow"
+  actions:
+  - "ecs:*"
+  resources:
+  - "*"
+
+IAMECSDeployAccess:
+  effect: "Allow"
+  actions:
+  - "iam:PassRole"
+  resources:
+  - "*"

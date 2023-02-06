@@ -1,0 +1,16 @@
+AMIRegion: us-east-1
+AWSAccountName: shared
+AccountDomainName: fdc-shared.com
+AccountRole: shared
+AllowSSHFromGruntworkDeployer: true
+IncludeAccountBaselineApp: true
+IncludeAlarmSNSTopic: true
+IncludeBastionHost: false
+IncludeBastionHostAMIBuildScript: false
+IncludeECSClusterInstanceAMIBuildScript: true
+IncludeEKSClusterInstanceAMIBuildScript: false
+IncludeJenkinsAMIBuildScript: true
+IncludeMgmtOpenVPNServer: true
+IncludeOpenVPNAMIBuildScript: true
+IncludeOpenVPNServer: false
+IncludeVPCApp: false

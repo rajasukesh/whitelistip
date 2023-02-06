@@ -1,0 +1,7 @@
+AWSAccountName: dev
+AccountDomainName: fdc-dev.com
+AccountRole: dev
+DBSecretsManagerArn: arn:aws:secretsmanager:us-east-1:419038716960:secret:RDSDBConfig-8otUZ9
+IncludeAccountBaselineApp: true
+ecs-sample-app-backend.TLSSecretsManagerArn: arn:aws:secretsmanager:us-east-1:419038716960:secret:SampleAppBackEndCA-iDouF0
+ecs-sample-app-frontend.TLSSecretsManagerArn: arn:aws:secretsmanager:us-east-1:419038716960:secret:SampleAppFrontEndCA-YzuTmm
