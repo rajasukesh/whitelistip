@@ -13,7 +13,7 @@ git checkout -b feature/add-ip-addresses-into-cloudfront-whitelist
 
 git branch
 
-readFile='/add.yml'
+readFile='/Users/SRaja/whitelistip/add.yml'
 # targetFile is where we will write to
 targetFile="/Users/SRaja/whitelistip/dev/us-east-1/dev/services/frontend-site/ipv4.yaml"
 
