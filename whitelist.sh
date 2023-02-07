@@ -7,6 +7,10 @@ set -x
 
 ENV=$1
 
+read commitmessage
+ 
+echo "Enter commit message:"=$2 
+
 git pull
 
 git branch
@@ -23,7 +27,7 @@ envsubst < "$readFile" >> "$targetFile"
 
 git add .
 
-git commit -m "testing"
+git commit -m "$"commitmessage:""
 
 git push --set-upstream origin feature/add-ip-addresses-into-cloudfront-whitelist
 
