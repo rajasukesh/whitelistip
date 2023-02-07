@@ -5,6 +5,8 @@ set -x
 
 #mkdir test
 
+ENV=$1
+
 git pull
 
 git branch
@@ -15,7 +17,7 @@ git branch
 
 readFile='/Users/SRaja/whitelistip/add.yml'
 # targetFile is where we will write to
-targetFile="/Users/SRaja/whitelistip/dev/us-east-1/dev/services/frontend-site/ipv4.yaml"
+targetFile="/Users/SRaja/whitelistip/$ENV/us-east-1/$ENV/services/frontend-site/ipv4.yaml"
 
 envsubst < "$readFile" >> "$targetFile"
 
